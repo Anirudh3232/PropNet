@@ -105,5 +105,9 @@ Final CSV with cluster labels for narrative inspection
 
  Author:-
 
-Developed by Anirudh Balmuri as part of a research-driven social media analysis project.
+Developed by Anirudh Balmuri as a social media analysis project.
+
+->Due to size restrictions and terms of use, the original dataset is not included in this repo.
+ Place `Twitter Analysis.csv` in the `data/` folder before running the notebooks.
+
 
