@@ -10,40 +10,6 @@ Narrative Clustering: Groups similar tweets using sentence embeddings and cluste
 
 Coordination Detection: Builds graphs based on shared narratives and user behavior to uncover coordination.
 
- Folder Structure
-
-PropNet/
-│
-├── data/                            # Project datasets and outputs
-│   ├── Truth_Seeker_Model_Dataset.csv     # Original dataset for coordination detection
-│   ├── Twitter Analysis.csv               # Dataset for narrative clustering
-│   ├── preprocessed_coordination.csv      # Cleaned dataset used for building coordination graph
-│   ├── coordination_graph.gexf            # GEXF graph of coordinated user connections
-│   ├── coordination_graph_clustered.png   # Visualized graph with coordination clusters
-│   ├── coordination_graph_visual.png      # Visual representation of raw coordination network
-│   ├── propnet_graph.gexf                 # Mention graph based on @mentions
-│   ├── propnet_graph_visual.png           # Visual of the mention graph
-│   ├── tweet_embeddings.npy               # Encoded tweet vectors using MiniLM
-│   ├── label_distribution.png             # Label breakdown of clusters
-│
-├── notebooks/                      # Jupyter Notebooks
-│   ├── topic_clustering.ipynb            # Main notebook for clustering tweets using embeddings
-│   └── data/
-│       ├── tweet_clusters.png             # Visualization of PCA tweet clusters
-│       ├── tweet_embeddings.npy           # Embeddings used for clustering
-│       └── tweets_with_clusters.csv       # Final output of cluster-labeled tweets
-│
-├── scripts/                        # Python scripts for modular processing
-│   ├── build_user_graph.py              # Generates mention graph (propnet_graph)
-│   ├── build_coordination_graph.py      # Builds coordination graph from shared narratives
-│   ├── export_coordination_graph.py     # Exports coordination GEXF as GML for further use
-│   ├── analyze_coordination_graph.py    # Loads and analyzes coordination graph structure
-│   ├── visualize_coordination_graph.py  # Plots coordination graphs
-│   ├── visualize_graph.py               # Plots mention graph
-│   ├── load_truthseeker_data.py         # Handles dataset preprocessing
-│   └── preprocess_for_coordination.py   # Extracts narrative-target pairs for coordination
-│
-└── README.md                      # Project documentation
 
 How to Run:-
 
