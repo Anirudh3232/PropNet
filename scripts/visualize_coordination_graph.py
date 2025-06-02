@@ -20,4 +20,4 @@ plt.tight_layout()
 
 
 plt.savefig("data/coordination_graph_visual.png", dpi=300)
-print("📷 Saved: data/coordination_graph_visual.png")
+print(" Saved: data/coordination_graph_visual.png")
