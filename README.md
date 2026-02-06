@@ -50,7 +50,7 @@ Jupyter Notebooks
 
 Files to Ignore in GitHub:-
 
-These are large or unnecessary for  release:
+These are large or unnecessary:
 
 venv/                    # Python virtual environment
 __pycache__/             # Compiled files
